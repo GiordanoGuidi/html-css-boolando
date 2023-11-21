@@ -1,0 +1,60 @@
+/*CSS RESET*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*UTILS*/
+body{
+    padding-top: 150px;
+}
+
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.border{
+    border: 2px dashed black;
+}
+
+.card-image{
+   max-width: 100%;
+}
+
+
+
+
+/*header*/
+header{
+    background-color: orange;
+    height: 100px;
+    position:fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin-bottom: 80px;
+}
+
+.navbar.container{
+    height: 100%;
+}
+/*MAIN*/
+main{
+    min-height: 800px;
+    background-color: aquamarine;
+}
+
+.card{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    gap: 10px;
+}
+
+.product-information{
+    width: 30%;
+}
+
+
+
