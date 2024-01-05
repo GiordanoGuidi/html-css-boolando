@@ -47,9 +47,33 @@ a{
     font-weight: 600;
 }
 
+.bg-black{
+    background-color: #1A1A1A;
+}
+
+.c-white{
+    color: rgb(255, 255, 255);
+}
+
+.d-flex{
+    display: flex;
+}
+
+.s-between{
+    justify-content: space-between;
+}
+
+.p-20{
+    padding: 20px 0px;
+}
+
+.line-h{
+    line-height: 2;
+}
+
 /*header*/
 header{
-    background-color: orange;
+    background-color: #FF6900;
     height: 100px;
     position:fixed;
     display: flex;
@@ -88,7 +112,6 @@ header{
 }
 
 /*MAIN*/
-
 .row{
     display: flex;
     margin: 0 -10px;
