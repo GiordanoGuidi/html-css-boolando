@@ -5,10 +5,6 @@
     box-sizing: border-box;
 }
 /*UTILS*/
-body{
-    padding-top: 150px;
-}
-
 .container{
     width: 1200px;
     margin: 0 auto;
@@ -71,17 +67,17 @@ a{
     line-height: 2;
 }
 
-/*header*/
+/*HEADER*/
 header{
     background-color: #FF6900;
     height: 100px;
-    position:fixed;
+    position:sticky;
     display: flex;
     top: 0;
     left: 0;
     right: 0;
     font-weight: 600;
-    margin-bottom: 80px;
+    /* margin-bottom: 80px; */
     z-index: 1;
 }
 
@@ -157,6 +153,7 @@ header{
     top: 10px;
     line-height: 50px;
     background-color: white;
+    cursor: pointer;
 }
 
 .favourite:hover{
